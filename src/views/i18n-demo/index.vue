@@ -16,8 +16,8 @@
           <el-radio label="es" border>
             Español
           </el-radio>
-          <el-radio label="ja" border>
-            日本語
+          <el-radio label="vi" border>
+            Tiếng Việt
           </el-radio>
         </el-radio-group>
         <el-tag style="margin-top:15px;display:block;" type="info">
@@ -127,7 +127,7 @@ export default {
       this.$i18n.mergeLocaleMessage('en', local.en)
       this.$i18n.mergeLocaleMessage('zh', local.zh)
       this.$i18n.mergeLocaleMessage('es', local.es)
-      this.$i18n.mergeLocaleMessage('ja', local.ja)
+      this.$i18n.mergeLocaleMessage('vi', local.vi)
     }
     this.setOptions() // set default select options
   },

@@ -60,15 +60,15 @@ export default {
       three: 'Three'
     }
   },
-  ja: {
+  vi: {
     i18nView: {
-      title: '言語切替',
-      note: 'vue-i18nを使っています',
-      datePlaceholder: '日時選択',
-      selectPlaceholder: '選択してください',
-      tableDate: '日時',
-      tableName: '姓名',
-      tableAddress: '住所',
+      title: 'Chuyển ngôn ngữ',
+      note: 'Dựa trên vue-i18n',
+      datePlaceholder: 'Chọn một ngày',
+      selectPlaceholder: 'Chọn',
+      tableDate: 'Ngày',
+      tableName: 'Tên',
+      tableAddress: 'Địa chỉ',
       default: 'default',
       primary: 'primary',
       success: 'success',

@@ -13,8 +13,8 @@
       <el-dropdown-item :disabled="language==='es'" command="es">
         Español
       </el-dropdown-item>
-      <el-dropdown-item :disabled="language==='ja'" command="ja">
-        日本語
+      <el-dropdown-item :disabled="language==='vi'" command="vi">
+        Tiếng Việt
       </el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
